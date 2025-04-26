@@ -3,7 +3,6 @@ Generate a single **.docx** that contains every C# script in your Unity project 
 
 ![Unity](https://img.shields.io/badge/Unity-2020.3%2B-black?logo=unity)
 ![License](https://img.shields.io/github/license/your-name/ScriptCollectorToWord)
-![OpenUPM](https://img.shields.io/badge/OpenUPM-coming--soon-blue)
 
 ---
 
@@ -22,12 +21,16 @@ Generate a single **.docx** that contains every C# script in your Unity project 
 
 1. **Install NuGetForUnity**
 
-   *Window → Package Manager → Add package from Git URL…*  
-2. **Install Open XML SDK**  
+   *Window → Package Manager → Add package from Git URL…*
+"com.yourname.script-collector-word": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity"
+3. **Install Open XML SDK**  
 *NuGet → Manage NuGet Packages* → search **DocumentFormat.OpenXml** → **Install**.
 
-3. **Add ScriptCollectorToWord**  
+4. **Add ScriptCollectorToWord**  
 *Option A* – copy the `Editor` folder into your project.  
 *Option B* – add this repo as a Git dependency in **manifest.json**:
 ```jsonc
 "com.yourname.script-collector-word": "https://github.com/your-name/script-collector-word.git#upm"
+Generate the doc
+Tools → Generate Word from Scripts ➜ choose folders ➜ Generate Word file.
+
