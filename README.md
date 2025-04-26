@@ -21,9 +21,9 @@ Generate a single **.docx** that contains every C# script in your Unity project 
 
 1. **Install NuGetForUnity**
    *Window → Package Manager → Add package from Git URL…*
-     ```jsonc
-    "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity"
-      ```
+```jsonc
+  "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity"
+  ```
 2. **Install Open XML SDK**  
 NuGet → Manage NuGet Packages → search **DocumentFormat.OpenXml** → **Install**.
   ```jsonc
