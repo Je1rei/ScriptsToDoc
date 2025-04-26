@@ -2,7 +2,7 @@
 Generate a single **.docx** that contains every C# script in your Unity project – ready to share with teammates, teachers, reviewers or clients.
 
 ![Unity](https://img.shields.io/badge/Unity-2020.3%2B-black?logo=unity)
-![License](https://img.shields.io/github/license/your-name/ScriptCollectorToWord)
+![License](https://camo.githubusercontent.com/3318cb25b502f7a6e23c3574c614fe969dc4d8316a6e71ab55bf62f0a65c675e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f5365616565657353616e2f53696d706c65466f6c64657249636f6e)
 
 ---
 
