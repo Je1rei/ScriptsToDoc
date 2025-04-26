@@ -25,7 +25,7 @@ Generate a single **.docx** that contains every C# script in your Unity project 
 "com.yourname.script-collector-word": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity"
 2. **Install Open XML SDK**  
 NuGet → Manage NuGet Packages → search **DocumentFormat.OpenXml** → **Install**.
-
+"com.yourname.script-collector-word": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity"
 3. **Add ScriptCollectorToWord**  
 - **Option A** – copy the `Editor` folder into your project.  
 - **Option B** – add the package in **Packages/manifest.json**:  
