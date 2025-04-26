@@ -13,7 +13,6 @@ Generate a single **.docx** that contains every C# script in your Unity project 
 | **Keeps file names** | Each script is preceded by its file name for quick navigation. |
 | **Editor-only** | Lives entirely inside the Unity Editor – no code touches your build. |
 | **Folder filters** | Include / exclude `Editor` folders and choose sub-folders manually. |
-| **Dependency helper** | Shows missing-dependency hints for NuGetForUnity and `DocumentFormat.OpenXml`. |
 
 ---
 
