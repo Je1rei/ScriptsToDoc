@@ -23,14 +23,51 @@ Generate a single **.docx** that contains every C# script in your Unity project 
 
    *Window → Package Manager → Add package from Git URL…*
 "com.yourname.script-collector-word": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity"
-3. **Install Open XML SDK**  
-*NuGet → Manage NuGet Packages* → search **DocumentFormat.OpenXml** → **Install**.
+2. **Install Open XML SDK**  
+NuGet → Manage NuGet Packages → search **DocumentFormat.OpenXml** → **Install**.
 
-4. **Add ScriptCollectorToWord**  
-*Option A* – copy the `Editor` folder into your project.  
-*Option B* – add this repo as a Git dependency in **manifest.json**:
-```jsonc
-"com.yourname.script-collector-word": "https://github.com/your-name/script-collector-word.git#upm"
-Generate the doc
-Tools → Generate Word from Scripts ➜ choose folders ➜ Generate Word file.
+3. **Add ScriptCollectorToWord**  
+- **Option A** – copy the `Editor` folder into your project.  
+- **Option B** – add the package in **Packages/manifest.json**:  
+  ```jsonc
+  "com.yourname.script-collector-word": "https://github.com/your-name/script-collector-word.git#upm"
+  ```
 
+4. **Generate the document**  
+Tools → Generate Word from Scripts → choose folders → **Generate Word file**.
+
+---
+
+## ⚙️ Options
+- **Include all sub-folders** – scan entire tree  
+- **Exclude “Editor” folders** – ignore editor-only code  
+- **Advanced options** – tick first-level sub-folders manually
+
+---
+
+## 📄 Output
+- Word 2007+ compatible `.docx`  
+- UTF-8 preserved, ready for diff/grep  
+- File names use **Heading 1** style → _Insert → Table of Contents_ works instantly
+
+---
+
+## 🗺️ Roadmap
+- Syntax-highlighted export (Word styles)  
+- Extra file types (`.shader`, `.uss`, `.asmdef` …)  
+- CLI / CI batch mode
+
+---
+
+## 🤝 Contributing
+Pull requests and issues are welcome – please open an issue first for large changes.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the full text below.
+
+---
+
+## MIT License
