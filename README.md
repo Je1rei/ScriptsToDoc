@@ -31,7 +31,7 @@ NuGet → Manage NuGet Packages → search **DocumentFormat.OpenXml** → **Inst
 3. **Install ScriptCollectorToWord**  
 Window → Package Manager → **Add package from Git URL…**  
   ```jsonc
-  "https://github.com/Je1rei/ScriptsToDoc.git"
+  "https://github.com/Je1rei/ScriptCollector.git"
   ```
 
 4. **Generate the document**  
